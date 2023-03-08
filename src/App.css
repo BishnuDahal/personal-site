@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.skillanimate{
+  /* background-color: #333; */
+  opacity: 1;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0px;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dee2e6;
+
+}
+.skillanimate li{
+  color: #fff;
+  padding: 15px;
+  width: 50%;
+  font-weight: bold;
+
+}
+.bar{
+  /* background: #353b48; */
+  background: gray;
+  display: block;
+  height: 8px;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+.bar span{
+  height: 8px;
+  float: left;
+  background: #e20ee2;
+}
+.html{
+  width: 90%;
+  animation: html 2s infinite;
+}
+.Css{
+  width: 90%;
+  animation: Css 2s infinite;
+}
+.Saas{
+  width: 90%;
+  animation: Css 2s infinite;
+}
+.Tailwind{
+  width: 90%;
+  animation: Tailwind 2s infinite;
+}
+
+.Javascript{
+  width: 60%;
+  animation: Javascript 2s infinite;
+}
+.TypeScript{
+  width: 60%;
+  animation: Javascript 2s infinite;
+}
+.React{
+  width: 80%;
+  animation: React 2s infinite;
+}
+.ReactNative{
+  width: 80%;
+  animation: React 2s infinite;
+}
+.Electron{
+  width: 80%;
+  animation: React 2s infinite;
+}
+.GrapesJs{
+  width: 40%;
+  animation: GrapesJs 2s infinite;
+}
+@keyframes html{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Css{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Saas{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Tailwind{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Javascript{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+@keyframes Typescript{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+@keyframes React{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes ReactNative{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes Electron{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes GrapesJs{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 40%;
+  }
+}
