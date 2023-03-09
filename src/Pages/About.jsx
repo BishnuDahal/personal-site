@@ -2,7 +2,6 @@ import React from 'react'
 import Title from '../components/reusable/Title'
 
 const About = (props) => {
-  const { setMenuState } = props;
 
   return (
     <div className="w-full p-8">
@@ -11,12 +10,14 @@ const About = (props) => {
         <div className="flex-[65%] text-lg">
           <h2 className="text-3xl font-bold mb-3 ">I'm <span className="text-primary">Bishnu Dahal,</span> a Frontend
             Developer</h2>
-          <p className="">I help you build brand for your business at an affordable price. Thousands of
-            clients have procured exceptional results while working with our dedicated team. when an
-            unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <p className="">Delivering work within time and budget which meets client’s requirements is our
-            moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown
-            printer took a galley.</p>
+          <p className="">I'm a Front end Developer with a stellar customer service records and superb work ethic.
+            Broadly and deeply knowledgeable
+            in a variety of computer language as well as the principles and techniques of website construction and maintenance.</p>
+          <p className="">I can help you build brand for your business at an affordable price.
+            Delivering work within time and budget which meets client’s requirements is my main moto.
+          The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take
+            great care to ensure each project is well-documented and easily maintainable so you can enhance a project as
+            your company grows.</p>
         </div>
         <div className="flex-[30%]">
           <div className="divide-y divide-slate-200  ">
@@ -24,8 +25,8 @@ const About = (props) => {
               <span className="font-bold text-xl mr-2">Name:</span>Bishnu Dahal
             </div>
             <div className="p-4 text-lg">
-              <span className="font-bold text-xl mr-2">Email:</span><a
-                href="mailto:chat@simone.com" className='text-primary'>bishnu.dahal630@gmail.com</a>
+              <span className="font-bold text-xl mr-2">Email:</span>
+              <a href="mailto:email@example.com" className='text-primary'>bishnu.dahal630@gmail.com</a>
             </div>
             <div className="p-4 text-lg"><span className="font-bold text-xl mr-2">DOB:</span>1996-06-13</div>
             <div className="p-4 text-lg">
@@ -37,7 +38,7 @@ const About = (props) => {
           </div>
         </div>
       </div>
-     
+
     </div>
 
   )

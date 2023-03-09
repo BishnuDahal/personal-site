@@ -27,15 +27,15 @@ function App() {
         />
       case "About":
         return <About
-        setMenuState={setMenuState}
+          setMenuState={setMenuState}
         />
       case "Resume":
         return <Education
-        setMenuState={setMenuState}
+          setMenuState={setMenuState}
         />
       case "Skill":
         return <Skills
-        setMenuState={setMenuState}
+          setMenuState={setMenuState}
         />
       case "Contact":
         return <Contact />
@@ -73,11 +73,26 @@ function App() {
             >Contact</li>
           </ul>
         </div>
-        <div className="w-full absolute bottom-2 flex justify-center p-2 gap-4 cursor-pointer">
-          <img src={FacebookIcon} alt="" />
-          <img src={LinkedInIcon} alt="" />
-          <img src={GithubIcon} alt="" />
-          <img src={YoutubeIcon} alt="" />
+        <div className="w-full absolute bottom-2 flex justify-center p-2 gap-2 cursor-pointer">
+          <a target="_blank"
+            href="https://www.facebook.com/bishnu.dahal.5872">
+            <img src={FacebookIcon} alt="" className='-mt-1' />
+          </a>
+          <a target="_blank"
+            href="https://www.linkedin.com/in/bishnudahal">
+            <img src={LinkedInIcon} alt="" />
+          </a>
+
+          <a target="_blank"
+            href="https://github.com/BishnuDahal">
+            <img src={GithubIcon} alt="" />
+          </a>
+
+          <a target="_blank"
+            href="https://www.youtube.com/channel/UCWTlZSeBAZN2ErsLfCsb1uA">
+            <img src={YoutubeIcon} alt="" />
+          </a>
+
         </div>
       </div>
       <div className="container">
