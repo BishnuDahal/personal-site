@@ -49,15 +49,6 @@ body {
 
 
 
-.profile-container:hover {
-  clip-path: circle(400px at center 10px);
-  transition: 0.5s ease-in-out;
-  transition-delay: 0.5s;
-}
-
-
-
-
 /* landing-page-body container */
 
 .container {

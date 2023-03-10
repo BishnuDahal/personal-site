@@ -3,6 +3,22 @@ import Title from '../components/reusable/Title'
 
 const About = (props) => {
 
+      // Function will execute on click of button
+      const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('bishnuresume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'bishnuresume.pdf';
+                alink.click();
+            })
+        })
+      }
+
   return (
     <div className="w-full p-8">
       <Title titleSection="About Me" heading="Know Me More" />
@@ -15,7 +31,7 @@ const About = (props) => {
             in a variety of computer language as well as the principles and techniques of website construction and maintenance.</p>
           <p className="">I can help you build brand for your business at an affordable price.
             Delivering work within time and budget which meets client’s requirements is my main moto.
-          The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take
+            The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take
             great care to ensure each project is well-documented and easily maintainable so you can enhance a project as
             your company grows.</p>
         </div>
@@ -34,7 +50,9 @@ const About = (props) => {
             </div>
           </div>
           <div className="p-4 text-lg">
-            <button className='bg-primary border-2 border-primary text-2xl text-[#fff]  px-[12px] py-[12px] rounded-full font-500 hover:text-primary hover:bg-transparent'>Downlaod CV</button>
+            <button onClick={onButtonClick} className='bg-primary border-2 border-primary text-2xl text-[#fff]  px-[12px] py-[12px] rounded-full font-500 hover:text-primary hover:bg-transparent'>
+              Downlaod CV
+            </button>
           </div>
         </div>
       </div>
