@@ -20,7 +20,7 @@ const About = (props) => {
       }
 
   return (
-    <div className="w-full p-8">
+    <div className="w-full p-4 md:p-8 bg-[#111418]">
       <Title titleSection="About Me" heading="Know Me More" />
       <div className="w-full flex flex-wrap justify-between gap-6 p-2 text-[#fff]">
         <div className="flex-[65%] text-lg">
@@ -37,19 +37,19 @@ const About = (props) => {
         </div>
         <div className="flex-[30%]">
           <div className="divide-y divide-slate-200  ">
-            <div className="p-4 text-lg">
-              <span className="font-bold text-xl mr-2">Name:</span>Bishnu Dahal
+            <div className="p-2 md:p-4 text-lg">
+              <span className="text-lg md:font-bold text-xl mr-2">Name:</span>Bishnu Dahal
             </div>
-            <div className="p-4 text-lg">
-              <span className="font-bold text-xl mr-2">Email:</span>
+            <div className="p-2 md:p-4 text-lg">
+              <span className="font-bold text-lg md:text-xl mr-2">Email:</span>
               <a href="mailto:email@example.com" className='text-primary'>bishnu.dahal630@gmail.com</a>
             </div>
-            <div className="p-4 text-lg"><span className="font-bold text-xl mr-2">DOB:</span>1996-06-13</div>
-            <div className="p-4 text-lg">
-              <span className="font-bold text-xl mr-2">From:</span> Kathmandu, Nepal
+            <div className="p-2 md:p-4 text-lg"><span className="font-bold text-lg md:text-xl mr-2">DOB:</span>1996-06-13</div>
+            <div className="p-2 md:p-4 text-lg">
+              <span className="font-bold text-lg md:text-xl mr-2">From:</span> Kathmandu, Nepal
             </div>
           </div>
-          <div className="p-4 text-lg">
+          <div className="p-2 md:p-4 text-lg">
             <button onClick={onButtonClick} className='bg-primary border-2 border-primary text-2xl text-[#fff]  px-[12px] py-[12px] rounded-full font-500 hover:text-primary hover:bg-transparent'>
               Downlaod CV
             </button>

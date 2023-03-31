@@ -6,8 +6,8 @@ const Home = (props) => {
     <>
       <div className="landing-page-body " id="landing-page-body">
         <div className="landing-page-body-content">
-          <h1>Hi I'm Bishnu Dahal</h1>
-          <p>I'm a Front End Developer Living In Kathmandu,Nepal.I am a student of Computer Science Information
+          <h1 className="text-white text-xl pb-[30px] font-light">Hi I'm Bishnu Dahal</h1>
+          <p className="text-white text-lg pb-[30px] font-light">I'm a Front End Developer Living In Kathmandu,Nepal.I am a student of Computer Science Information
             Technology.I develop all aspects of frontend with
             <span className="uppercase font-bold text-white bg-[#111418] px-1 rounded-sm">React</span>,
             <span className="uppercase font-bold text-white bg-[#111418] px-1 rounded-sm">React Native</span> &
