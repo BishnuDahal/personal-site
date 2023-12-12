@@ -19,15 +19,9 @@ const Contact = () => {
 
       <div className="text-center text-md-start text-[#fff] m-12">
         <h2 className="mb-3 text-2xl text-uppercase font-bold">Address
-<<<<<<< HEAD
         <span className="w-[8%] border-b-4 border-[#D1197E] block mx-auto p-1 rounded"></span></h2>
         <p className="text-base ">Dartbrook Rd Auburn</p>
         <p className="text-base ">Sydney NSW, Australia</p>
-=======
-          <span className="w-[8%] border-b-4 border-[#D1197E] block mx-auto p-1 rounded"></span></h2>
-        <p className="text-base ">Kageshwori, Manohara Municipality</p>
-        <p className="text-base ">Gothatar-09 Kathmandu, Nepal</p>
->>>>>>> 3ccbd6ff18d9b68eee38097d8ad4f6d554f67c0f
       </div>
 
 
