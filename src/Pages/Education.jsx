@@ -8,6 +8,12 @@ const Education = (props) => {
     <div classNameName="w-full p-8">
       <Title titleSection="Education" heading="Education" />
       <div className="w-full grid grid-cols-3 gap-6 p-6">
+      <div className="bg-[#fff] rounded p-6 mb-4 border border-[#dee2e6]">
+          <p className=" bg-primary text-center text-base font-600 p-1 text-[#fff] rounded w-1/2">2023 - Present</p>
+          <h3 className="text-xl font-bold my-2">Master Degree</h3>
+          <p className="text-[#dc3545] text-base font-bold my-2">Australian National Institute of Managemet and Commerce(IMC)</p>
+          <p className="mb-0 text-[#4c4d4d] text-base my-2">Master in Data Analytics</p>
+        </div>
         <div className="bg-[#fff] rounded p-6 mb-4 border border-[#dee2e6]">
           <p className=" bg-primary text-center text-base font-600 p-1 text-[#fff] rounded w-1/2">2014 - 2018</p>
           <h3 className="text-xl font-bold my-2">Bachelor Degree</h3>

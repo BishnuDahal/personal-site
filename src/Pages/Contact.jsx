@@ -21,8 +21,8 @@ const Contact = (props) => {
       <div className="text-center text-md-start text-[#fff] m-12">
         <h2 className="mb-3 text-2xl text-uppercase font-bold">Address
         <span className="w-[8%] border-b-4 border-[#D1197E] block mx-auto p-1 rounded"></span></h2>
-        <p className="text-base ">Kageshwori, Manohora Municipality</p>
-        <p className="text-base ">Gothatar-09 Kathmandu, Nepal</p>
+        <p className="text-base ">Dartbrook Rd Auburn</p>
+        <p className="text-base ">Sydney NSW, Australia</p>
       </div>
 
 
@@ -55,7 +55,7 @@ const Contact = (props) => {
         <span className=" text-lg text-[#fff] flex justify-center gap-2">
           <img lassName=" text-[#fff]" src={phoneIcon} alt="" />
           <p className="text-base ">
-            (+977) 9863847606, 9803651165
+            (+61) 423 542 135
           </p>
         </span>
         <span className=" text-lg flex justify-center gap-2">
