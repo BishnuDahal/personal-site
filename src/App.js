@@ -117,7 +117,7 @@ function App() {
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-      </div>````````````````````````````````````````````````````
+      </div>
       <div class="hidden mobile-menu">
         <div className="text-center mt-[8px] list-style-none text-[#fff]">
           <ul>
